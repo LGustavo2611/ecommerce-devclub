@@ -1,0 +1,89 @@
+<!DOCTYPE html> <!-- VERSÃO 5 DO HTML(MAIS NOVA) -->
+<html lang="pt-br"> <!-- NO CASO, O ATRIBUTO DEFINE A LÍNGUA(IDIOMA) DO SITE-->
+
+<head>
+    <meta charset="UTF-8"> <!-- DEFINIÇÃO DO PADRÃO DE CARACTERES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- COMPATÍVEL COM COMPUTADORES E CELULARES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- stylesheet = folha de estilo -->
+    <title>TechStore</title>
+</head>
+
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <!-- DIV - CAIXA GENÉRICA -->
+        <!-- HEADER - CABEÇALHO -->
+        <!-- MAIN - CONTEÚDO PRINCIPAL -->
+        <!-- FOOTER  RODAPÉ -->
+        <div class="logo">
+            <i class="fa-solid fa-bolt"></i>
+            <h1>TechStore</h1> <!-- TÍTULO / H1, H2... H6 Headline(título) -->
+        </div>
+        <div class="search-container">
+            <input placeholder="Buscar produtos..." class="search-input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+
+    <!--MENU SUPERIOR (NAV) -->
+    <div class="categories-container">
+        <nav class="categories-bar"> <!-- CAIXA NAVEGAÇÃO -->
+            <button class="category-btn active" data-category="all" title="Todos">
+                <i class="fa-solid fa-border-all"></i>
+                Todos
+            </button>
+
+            <button class="category-btn" data-category="smartphones" title="Smartphones">
+                <i class="fa-solid fa-mobile-retro"></i>
+                Smartphones
+            </button>
+
+            <button class="category-btn" data-category="laptops" title="Laptops">
+                Notebooks
+                <i class="fa-solid fa-laptop"></i>
+            </button>
+
+            <button class="category-btn" data-category="headphones" title="Headphones">
+                Fones
+                <i class="fa-solid fa-headphones"></i>
+            </button>
+
+            <button class="category-btn" data-category="accessories" title="Acessórios">
+                Acessórios
+                <i class="fa-solid fa-keyboard"></i>
+            </button>
+
+            <button class="category-btn" data-category="smartwatch" title="Smartwatches">
+                SmartWatches
+                <i class="fa-solid fa-clock"></i>
+            </button>
+        </nav>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero-section">
+        <h2>Black Friday Antecipada!</h2>
+        <p>Até 50% de desconto em produtos selecionados</p>
+    </section>
+
+    <!-- ITENS -->
+    <main class="products">
+        <div class="products-container">
+            <!-- VAMOS COLOCAR OS PRODUTOS AQUI -->
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>2026 - TechStore. Todos os Direitos Reservados</p>
+    </footer>
+
+</body>
+<script src="scripts.js">
+
+</script>
+
+</html>
